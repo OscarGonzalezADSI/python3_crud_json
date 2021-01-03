@@ -11,7 +11,7 @@ def Expo():
     raiz = Tk()
     raiz.title("ventana de pruebas")
     raiz.iconbitmap("our_crud_lite.ico")
-    raiz.geometry("800x600")
+    raiz.geometry("800x600+0-0")
     raiz.config(bg="#000000")
     raiz.wm_attributes('-alpha',0.8)
 
@@ -54,7 +54,7 @@ def FormInsert(raiz):
 
     raiza.title(" *** Insert *** ")
     raiza.iconbitmap("our_crud_lite.ico")
-    raiza.geometry("400x600")
+    raiza.geometry("400x600+0-0")
     raiza.config(bg="#000000")
     raiza.wm_attributes('-alpha',0.8)
     
@@ -202,7 +202,7 @@ def View(raiz, con, idr):
     
     raiza.title(" *** View *** ")
     raiza.iconbitmap("our_crud_lite.ico")
-    raiza.geometry("400x600")
+    raiza.geometry("400x600+400-0")
     raiza.config(bg="#000000")
     raiza.wm_attributes('-alpha',0.8)
 
@@ -254,7 +254,7 @@ def FormDelete(raiz, raiza, idr):
     raizb = Tk()
     raizb.title(" *** Delete *** ")
     raizb.iconbitmap("our_crud_lite.ico")
-    raizb.geometry("400x150")
+    raizb.geometry("400x150+400-0")
     raizb.config(bg="#000000")
     raizb.wm_attributes('-alpha',0.8)
 
@@ -290,7 +290,7 @@ def WinDelConf(raiz, raiza, raizb):
     raizc = Tk()
     raizc.title(" *** Delete *** ")
     raizc.iconbitmap("our_crud_lite.ico")
-    raizc.geometry("400x150")
+    raizc.geometry("400x150+400-0")
     raizc.config(bg="#000000")
     raizc.wm_attributes('-alpha',0.8)
 
@@ -340,7 +340,7 @@ def FormUpdate(raiz, raiza, idr):
     raizb = Tk()
     raizb.title(" *** Update *** ")
     raizb.iconbitmap("our_crud_lite.ico")
-    raizb.geometry("400x600")
+    raizb.geometry("400x600+800-0")
     raizb.config(bg="#000000")
     raizb.wm_attributes('-alpha',0.8)
 
